@@ -14,5 +14,3 @@ var color=prompt('whats your fav color?');
 
   document.body.style.backgroundColor = color 
   
-
-
