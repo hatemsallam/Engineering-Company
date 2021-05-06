@@ -34,6 +34,4 @@ for (var i = 0; i < stars; i++) {
 
   document.write('<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDvvIxXy4-x8TSIlWn-znOZirHvrsErjpxQw&usqp=CAU" width="50px">');
 }
-=======
-  
->>>>>>> 37b1cea80d70289e42d422f36bafee672b0313a7
+
