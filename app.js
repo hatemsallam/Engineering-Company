@@ -1,4 +1,4 @@
- confirm ('welcome to our website take a tour..')
+ /*confirm ('welcome to our website take a tour..')
  var workType=prompt('what type of civil work do want to choose structure or finishing?');
 
 if(workType=='finishing'){
@@ -13,6 +13,23 @@ if(workType=='finishing'){
 var color=prompt('whats your fav color?');
 
   document.body.style.backgroundColor = color 
+*/
+var favouriteBuilding = prompt('what is your favourite building in the arab world?');
+
+while (favouriteBuilding !== 'khalifa tower' && favouriteBuilding !== 'the arab tower') {
+  favouriteBuilding = prompt('please only answer with khalifa tower or the arab tower');
+}
+if(favouriteBuilding=='khalifa tower') {document.write('<img src="https://luxeadventuretraveler.com/wp-content/uploads/2012/12/Luxe-Adventure-Traveler-Dubai-Burj-Khalifa-6.jpg" width=300 px>')}
+if (favouriteBuilding=='the arab tower') {document.write('<img src="https://previews.123rf.com/images/jonathankitchen/jonathankitchen1812/jonathankitchen181200013/115890655-burj-al-arab-tower-of-the-arabs-is-a-luxury-hotel-located-in-dubai-united-arab-emirates-it-stands-on.jpg" width=250 px>')
+}
   
+var stars = prompt('how many starts do you rate our website?');
 
+if (stars > 5) {
+  stars = 5;
+}
 
+for (var i = 0; i < stars; i++) {
+
+  document.write('<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDvvIxXy4-x8TSIlWn-znOZirHvrsErjpxQw&usqp=CAU" width="50px">');
+}
