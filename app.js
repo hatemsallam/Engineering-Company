@@ -55,4 +55,7 @@ for (var i = 0; i < stars; i++) {
 return starResults;
 }
 
+<<<<<<< HEAD
 document.write(getRating());
+=======
+>>>>>>> 45cf4f3a68a1acbaf0fe7b7f77529313f8818326
