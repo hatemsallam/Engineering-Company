@@ -55,5 +55,7 @@ for (var i = 0; i < stars; i++) {
 return starResults;
 }
 
+
 document.write(getRating());
+
 
